@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>百阅</title>
+    <meta name="description" content=""> 	<!--网站的描述信息-->
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--link用与引用css文件，script用于引用js文件-->
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="css/iconfont.css">     	<!--首先引入css中的图标文件     向下-->
+    <link rel="stylesheet" href="css/iconfont-2-s.css"> 	<!--首先引入css中的图标文件     首页-->
+
+</head>
+
+<body id="top">
+
+    <!-- preloader		预加载
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+        	
+            <a class="site-logo" href="index.html">
+            	<!--原：<img src="css/iconfont-2-s" alt="Homepage">-->
+            		<i class="iconfont icon-shouye1"></i>
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a href="index.html" title="Home"主页</a></li>
+                <li><a href="about.html" title="About">关于</a></li>
+                <li><a href="events.html" title="Services">Events</a></li>
+                <li><a href="contact.html" title="Contact us">Contact</a></li>	
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- 首页：hero
+    ================================================== -->
+    <section class="s-hero" data-parallax="scroll" data-image-src="images/hero-bg-3000.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="hero-left-bar"></div>
+
+        <div class="row hero-content">
+
+            <div class="column large-full hero-content__text">
+                <h1>
+                               千万信息 <br>
+                              集中于此<br>
+                              只因我能
+                </h1>
+
+                <div class="hero-content__buttons">
+                    <a href="events.html" class="btn btn--stroke">活动即将开始</a>
+                    <a href="about.html" class="btn btn--stroke">关于我们</a>
+                </div>
+            </div> <!-- end hero-content__text -->
+
+        </div> <!-- end hero-content -->
+
+       <ul class="hero-social">			<!--在左侧添加一个登陆/社交 栏-->
+            <li class="hero-social__title">登陆</li>
+            <li>
+                <a href="#0" title="">QQ</a>
+            </li>
+            <li>
+                <a href="#0" title="">微信</a>
+            </li>
+            <li>
+                <a href="#0" title="">Instagram</a>
+            </li>
+        </ul> <!-- end hero-social -->
+
+        <div class="hero-scroll">
+        	<!--使页面平滑滚动 （scroll-link smoothscroll）-->
+            <a href="#about" class="scroll-link smoothscroll">		
+            	<i class="iconfont icon-xiangzuo"></i>
+            	<!--00000给予class iconfont的默认样式 以及icon-xiangzuo 我们下载的图标标识    注意，这个是字体不是图片000000-->
+            </a>
+        </div> <!-- end hero-scroll -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about">
+
+        <div class="row row-y-center about-content">
+
+            <div class="column large-half medium-full">
+                <h3 class="subhead">Welcome to 百阅</h3>
+                <p class="lead">
+                	百阅简介。。。。。
+                </p>
+                <a href="#0" class="btn btn--primary btn--about">百阅详情</a>
+                <!--建设一个详细网站-->
+                
+            </div>
+
+            <div class="column large-half medium-full">
+                <ul class="about-sched">
+                    <li>
+                        <h4>信息网</h4>                        	
+                        <a href="#0"style="color:white">这里有最新的国内外新闻，纵观天下，知己知彼</a>
+                        <!--建立一个属于信息网的单独网站-->
+                    </li>
+                    
+                    <li>
+                        <h4>知识领域</h4>                        
+                           <a href="#0" style="color:white">冷门趣事  专业知识</a>
+                           <!--建立一个属于知识领域的单独网站-->
+                    </li>
+                    
+                    <li>
+                        <h4>游戏圈</h4>
+                       <a href="#0" style="color:white">游戏的乐趣是在一起玩出来的</a>
+                       <!--建立一个属于游戏圈的单独网站-->
+                </ul> <!-- end about-sched-->
+            </div>
+
+        </div> <!-- end about-content -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- connect
+    ================================================== -->
+    <section class="s-connect">
+
+        <div class="row connect-content">
+            <div class="column large-half tab-full">
+                <h3 class="display-1">信息资料</h3>
+                <p>
+                	高山放纸鸢，全靠四边风。<br>
+                	只有时事掌握风吹草动，才能在最合适的时机扶摇直上
+                </p>
+				<!--原指向：volunteer.html-->
+                <a href="#0" class="btn btn--primary h-full-width">I'm Interested</a>
+            </div>
+            <div class="column large-half tab-full">
+                <h3 class="display-1">共享互助</h3>
+                <p>
+                                         人是群居动物，一个人的世界，会丢失掉很多缤纷。<br>
+                                         广泛的的交际网会为你提供许多捷径与方法。<br>                    
+              	 	 “大丈夫处世，当交四海英雄。”<br>
+              	  	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;——陈寿
+                </p>
+				<!--连接聊天室	原来这里指向connect-group.html-->
+                <a href="https://zzl-baiyue.herokuapp.com/" class="btn btn--primary h-full-width">	JOIN  IN</a>
+                
+            </div>
+        </div> <!-- end connect-content  -->
+
+    </section> <!-- end s-connect -->
+	
+
+   <!-- events
+    ================================================== -->
+    <section class="s-events">
+
+        <div class="row events-header">
+            <div class="column">
+                <h2 class="subhead">Is about to Function..</h2>
+            </div>
+        </div> <!-- end event-header -->
+
+        <div class="row block-large-1-2 block-900-full events-list">
+
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="https://www.huanqiu.com/" title="">信息网.</a>
+                </h3>
+                <p>
+           		蜘蛛能够坐享其成靠的是它那张巨大的网。<br>
+             	这里尽可能的汇集了你所想想要的一切  。<br /> 
+             	就看你如何取舍。
+                </p>
+                <!--
+                ==========================
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">     无</li>
+                    <li class="events-list__meta-time">8:00AM - 5:30PM</li>
+                    <li class="events-list__meta-location">1600 Amphitheatre Parkway, Mt. View</li>
+                </ul>
+                ==========================
+                -->
+            </div> <!-- end events-list__item -->
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="https://www.csdn.net/"  title="">专业领域.</a>
+                </h3>
+                <p>
+             	在这里集你想学<br>
+             	只有你想不到的<br>
+             	没有你找不到
+                </p>
+                <!--	有关图标
+                ===========================================
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">Saturday, July 27, 2019</li>
+                    <li class="events-list__meta-time">6:00PM - 8:30PM</li>
+                    <li class="events-list__meta-location">1600 Amphitheatre Parkway, Mt. View</li>
+                </ul>
+                ===========================================
+                -->
+            </div> <!-- end events-list__item -->
+            
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="https://www.douyin.com/" title="">才艺.</a>
+                </h3>
+                <p>
+                                是金子早晚会发光<br>
+               	这里为你提供阳光<br>
+               	尽情的闪耀吧
+                </p>
+                <!--	有关图标
+                ===========================================
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">Friday, July 26, 2019</li>
+                    <li class="events-list__meta-time">5:00PM - 6:30PM</li>
+                    <li class="events-list__meta-location">1600 Amphitheatre Parkway, Mt. View</li>
+                </ul>
+                ===========================================
+                 -->
+            </div> <!-- end events-list__item -->
+            
+            
+            <div class="column events-list__item">
+                <h3 class="display-1 events-list__item-title">
+                    <a href="http://nga.178.com/" title="">游戏圈.</a>
+                </h3>
+                <p>
+                	游戏的乐趣是一起玩出来的<br>
+                	 
+                </p>
+                <!--	有关图标
+                ===========================================
+                <ul class="events-list__meta">
+                    <li class="events-list__meta-date">Sunday, July 28, 2019</li>
+                    <li class="events-list__meta-time">2:00PM - 5:30PM</li>
+                    <li class="events-list__meta-location">1600 Amphitheatre Parkway, Mt. View</li>
+                </ul>
+                ===========================================
+                -->
+            </div> <!-- end events-list__item -->
+               
+        </div> <!-- end events-list -->
+
+    </section> <!-- end s-events -->
+
+
+    <!-- series
+    ================================================== -->
+    <section class="s-series">
+
+        <div class="series-img" style="background-image: url('images/serises-2000.jpg');"></div>
+
+        <div class="row row-y-center series-content">
+
+            <div class="column large-half medium-full">
+                <h3 class="subhead">社交</h3>
+                <h2>Share Your Life .</h2>
+                <p>
+                	多个朋友多种思路，集思广益嘛！<br>
+                	如果你把快乐告诉一个朋友，你将得到两个快乐，而如果你把忧愁向一个朋友倾诉，你将被分掉一半忧。<br>
+                	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;--培根<br>
+                	如果你把解决方案告诉一个朋友，你将会得到更多的朋友，而如果你把BUG向一个朋友倾诉，你将失去朋友。<br>
+                </p>
+            </div> <!-- end column -->
+
+            <div class="column large-half medium-full">
+                <div class="series-content__buttons">
+                	<!--btn是指按钮，这里不是方框-->
+                    <a href="" class="btn btn--large h-full-width">Watch the Video</a>
+                    <a href="" class="btn btn--large h-full-width">Listen To the Message</a>
+                </div>
+
+                <div class="series-content__subscribe">
+                    <p>
+                    Never missed a message. Subscribe to our YouTube and Podcast channels.
+                    </p>
+                    
+                    <ul class="series-content__subscribe-links">
+                        <li class="ss-apple-podcast"><a href="#0">Apple Podcast</a></li>
+                        <li class="ss-spotify"><a href="#0">Spotify</a></li>
+                        <li class="ss-soundcloud"><a href="#0">SoundCloud</a></li>
+                        <li class="ss-youtube"><a href="#0">Youtube</a></li>
+                    </ul>
+                </div>
+            </div> <!-- end column -->
+            
+        </div> <!-- series-content -->
+
+    </section> <!-- end s-series -->
+
+
+    <!-- Social
+    ================================================== -->
+    <section class="s-social">
+            
+        <div class="row social-content">
+            <div class="column">
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a href="#0" title="">
+                            <span class="social-list__icon social-list__icon--facebook"></span>
+                            <span class="social-list__text">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="#0" title="">
+                            <span class="social-list__icon social-list__icon--twitter"></span>
+                            <span class="social-list__text">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="#0" title="">
+                            <span class="social-list__icon social-list__icon--instagram"></span>
+                            <span class="social-list__text">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="#0" title="">
+                            <span class="social-list__icon social-list__icon--email"></span>
+                            <span class="social-list__text">Email</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- end social-content -->
+
+    </section> <!-- end s-social -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <div class="row footer-top">
+            <div class="column large-4 medium-5 tab-full">
+                <div class="footer-logo">
+                    <a class="site-footer-logo" href="index.html">
+                        <img src="images/logo.svg" alt="Homepage">
+                    </a>
+                </div>  <!-- footer-logo -->
+                <p>
+                Laborum ad explicabo. Molestiae voluptates est. Quisquam labore tenetur 
+                et assumenda voluptatibus a beatae. Rerum odio ducimus reprehenderit 
+                sit animi laborum nostrum dolorum animi voluptates est voluptatibus a beatae. 
+                </p>
+            </div>
+            <div class="column large-half tab-full">
+                <div class="row">
+                    <div class="column large-7 medium-full">
+                        <h4 class="h6">Our Location</h4>
+                        <p>
+                        1600 Amphitheatre Parkway <br>
+                        Mountain View, California <br>
+                        94043 US
+                        </p>
+        
+                        <p>
+                        <a href="https://goo.gl/maps/bc7C7eYtSmnNs6216" target="_blank" class="btn btn--footer">Get Direction</a>
+                        </p>
+                    </div>
+                    <div class="column large-5 medium-full">
+                        <h4 class="h6">启上</h4>
+                        <ul class="footer-list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="volunteer.html">Volunteer</a></li>
+                            <li><a href="connect-group.html">Connect Groups</a></li>
+                            <li><a href="events.html">Upcoming Events</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end footer-top -->
+<!--	模版之家广告
+        <div class="row footer-bottom">
+            <div class="column ss-copyright">
+                <span>© Copyright Hesed 2019 - More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+</span> <span>Design by styleshout</span>
+            </div>
+        </div> <!-- footer-bottom -->
+        
+		<!--？？？？？以下未知-->
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+            </a>
+        </div> <!-- ss-go-top -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
