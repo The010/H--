@@ -1,0 +1,24 @@
+/*这一段主要是自定义字体，我们引入的icon其实就是字体，可以使用css中font编辑icon*/
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1573286203732'); /* IE9 */
+  src: url('iconfont.eot?t=1573286203732#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMgAAsAAAAAB2gAAALRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCSIIfATYCJAMMCwgABCAFhG0HPRtsBsgOJSHB2ODhAgNlPHztx/7c3UW1QRKNqtNJDEk0MV20kvBQiIRG4pf6Q/ES3v+ttY+Yz9uEms3s7e3p3CAiSbSbN61iERpEEkTciMNxS3w+UC5rDpqDugDjgALaG6PICmQDJkQNYzcRNMTTBBr186W1mZ5bCoYKMCkQZwLfBIYZndKQGeqF2oqVRTzRU58e0gPwyO8f/wWHIUlNBs7aOk1rhcRfem/zebAaVJuHDE1ngbGOjAmgELuVth06UWyCjkZPousXglpFSFMFqwrO8yW18A+PJIhaIL0ZjCjxxC89zEvk0bLgqksyqPUYKQfAFaDqHurOHc7W8hE1Q0NaFbuXnqVli4O2W97lay2ZcouZd4D7BWPzsm/7bP+5WzFohxdnHPjloZ1p21ayNL2lU+iZNgfg64o7DV4/geFVh0WOU+cNu3rsngaXc7NzNnodek5YbBP/JtP2Y1xweW1O4X+IHCa/LHcKC3c8doqKdt2J+1lYeFjYmTvhKtikRrZDIzA2/0hygGogd+oM/YjH+LiZe2qwiP2sNyng5/tcDPdUAwW6pYJ6ic78187v2FR8IdDn4vIwL3Rk07dgScgc06kC4Or0OlzVc2uJUK8nQVKnD1m9AUKhTKBGk0nUqreCRuMy1jfpQumI0oAxYxJCu0Mkrb6RtXskFMoLavT6QK320EGj7bDZsclQCMYpFDcx3Iqau5DQolQQZGTGIrMY822yJpoWcmo5phohiIL8A/PJDKzAdIo5mnY+mDGCCFXKUbp0HpbJlEhFlVLcwvwljKmiAwJI1ZX8W5RyMLaBwpowWCukWRdE0EJJgdD2jHHh9sUwXhuZJrShocdaDqM0hO6RIP4COxAyZIpODbdyiUY7XjCGIRCCUpJD0iULJoMxJURVPUwKa8H4kwyIqEQLUFqRrjL/5RXy99sBjcDqHClyFPXnQpOC725TCg7RAgAAAAA=') format('woff2'),
+  url('iconfont.woff?t=1573286203732') format('woff'),
+  url('iconfont.ttf?t=1573286203732') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1573286203732#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+/*这是字体样式，我们一般使用字体时 给与它一个iconfont属性，给予它一个默认样式*/
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 40px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*这里就是显示iocn的class名  这里也就是icon-xiangzuo  因为我们只下载了一个图标，所以这里只有一个,如果下载了多个，那就会出现多个*/
+.icon-xiangzuo:before {content: "\e63a";}
+
+
+
